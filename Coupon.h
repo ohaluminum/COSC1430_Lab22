@@ -19,7 +19,7 @@ public:
     }
 
     //A destructor that prints out the message Coupon is used!
-    ~Coupon()
+    virtual ~Coupon()
     {
         cout << "Coupon is used!" << endl;
     }
@@ -41,7 +41,7 @@ public:
      *Right now, this function only outputs the message: 
      *Do not know how to apply coupon!, and returns the original price.
      */
-    float applyCoupon(float orgPrice) 
+    virtual float applyCoupon(float orgPrice) 
     {
         orgPrice -= amount;
         return orgPrice;

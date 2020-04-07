@@ -7,7 +7,7 @@ int main()
     cout << "Enter price: ";
     cin >> orgPrice;
     
-    Coupon *c_ptr = new DiscountCoupon (0.5);
+    Coupon *c_ptr = new DiscountCoupon(0.5);
     
     float afterPrice = c_ptr->applyCoupon(orgPrice);
     cout << "The price after apply discount coupon is: " << afterPrice << endl;
