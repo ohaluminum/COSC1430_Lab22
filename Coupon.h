@@ -11,7 +11,7 @@ using namespace std;
 class Coupon{
 public:
 
-    //A constructor with one parameter(with default value) that initializes the private member variable.
+    //A constructor with one parameter (with default value) that initializes the private member variable.
     Coupon(float off = 0)
         : amount(off)
     {

@@ -9,7 +9,7 @@ class DiscountCoupon : public Coupon {
 public:
 
     /*
-     *A constructor with one parameter(with default value).
+     *A constructor with one parameter (with default value).
      *This parameter will be used to initialize the private member inherited from the Coupon class
      */
     DiscountCoupon(float off = 0) 
