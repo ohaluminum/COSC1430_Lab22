@@ -33,7 +33,7 @@ public:
 
     float applayCoupon(float orgPrice)
     {
-        orgPrice -= getCoupon();
+        orgPrice = Coupon::applyCoupon(orgPrice);
 
         if (orgPrice < 0)
         {
